@@ -1,7 +1,7 @@
 $hostname = "localhost"
 $port = 61142
-$username = ""
-$password = ""
+$username = "rpcusername"
+$password = "rpcpassword"
 
 $cesc = New-Module -ScriptBlock {
     param(
